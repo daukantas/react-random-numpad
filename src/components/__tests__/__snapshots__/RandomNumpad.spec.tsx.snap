@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RandomNumPad Component Suite FocusOnScroll Component should render with defaults 1`] = `
+<div>
+  This is a number pad
+</div>
+`;
