@@ -3,9 +3,9 @@ import { storiesOf } from '@storybook/react';
 import { withKnobs } from '@storybook/addon-knobs/react';
 import { withInfo } from '@storybook/addon-info';
 
-import RandomNumPad from '../components/RandomNumpad';
+import RandomNumpad from '../components/RandomNumpad';
 
-const stories = storiesOf('RandomNumPad', module);
+const stories = storiesOf('RandomNumpad', module);
 
 stories.addDecorator(withKnobs);
 
@@ -14,7 +14,6 @@ stories.add('Basic Example', withInfo({
   inline: true,
 })(() => {
   return (
-    <RandomNumPad
-    />
+    <RandomNumpad />
    );
 }));
