@@ -5,7 +5,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 const getCommonConfig = require('./common.config');
 
-module.exports = merge(getCommonConfig('production'), {
+module.exports = merge(getCommonConfig(), {
   mode: 'production',
   output: {
     path: path.resolve(__dirname, '../dist'),
