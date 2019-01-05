@@ -4,5 +4,6 @@ export interface IRandomNumpadState {
 
 export interface IRandomNumpadProps {
   className?: string;
+  supportDecimal?: boolean;
   onChange: (value: string) => void;
 }

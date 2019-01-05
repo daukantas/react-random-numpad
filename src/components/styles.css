@@ -3,14 +3,14 @@
   width: 40px;
   background-color: #ddd;
   display: flex;
-  align-items: center;
   justify-content: center;
   cursor: pointer;
-  flex: 1 0 30%;
+  flex: 0 0 30%;
   margin: 5px;
 }
 
 .numpad {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-end;
 }
