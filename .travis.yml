@@ -9,4 +9,4 @@ node_js:
 script:
   - npm run ci && npm run build
 after_success:
-  - test $TRAVIS_BRANCH = "master" && npm run deploy-storybook
+  - if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then npm run deploy-storybook; fi

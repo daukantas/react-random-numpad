@@ -7,7 +7,7 @@
   "scripts": {
     "build": "rimraf dist/ && $(npm bin)/webpack  --config webpack/production.config.js",
     "start": "start-storybook -p 8000 -c .storybook",
-    "deploy-storybook": "storybook-to-ghpages",
+    "deploy-storybook": "storybook-to-ghpages --ci",
     "test": "$(npm bin)/jest",
     "test:update:snapshot": "$(npm bin)/jest --updateSnapshot",
     "test:coverage": "$(npm bin)/jest --coverage",
